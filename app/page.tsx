@@ -1,9 +1,11 @@
-import { FC } from "react";
+import Product from "./products/page";
 
-interface Props {}
-
-const page: FC<Props> = (props): JSX.Element => {
-  return <div className="text-center font-bold">stater page</div>;
+const Home = () => {
+  return (
+    <div className="px-10 py-10">
+      <Product />
+    </div>
+  );
 };
 
-export default page;
+export default Home;
